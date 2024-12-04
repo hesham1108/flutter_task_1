@@ -13,7 +13,7 @@ class HomeCubit extends Cubit<HomeState> {
   Future<void> loadOrders() async {
     emit(OrdersLoading());
     try {
-      final jsonData = await rootBundle.loadString('assets/orders.json');
+      final jsonData = await rootBundle.loadString('assets/json_files/orders.json');
 
       orders = parseOrders(jsonData);
 
