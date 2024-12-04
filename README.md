@@ -10,4 +10,4 @@
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/wasp2012/Flutter-challenge.git](https://github.com/hesham1108/flutter_task_1.git)
+   git clone https://github.com/wasp2012/Flutter-challenge.git
